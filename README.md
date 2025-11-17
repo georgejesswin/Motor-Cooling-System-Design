@@ -59,4 +59,5 @@ You can view the temperature response in the video demo or directly through Simu
 - Both approaches maintain motor temperature safely **below 45°C**  
 - **Approach 1** → simpler single-pipe design  
 - **Approach 2** → multiple pipe structure to improve efficiency in cooling
+
  
