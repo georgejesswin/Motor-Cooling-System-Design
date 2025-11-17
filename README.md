@@ -1,4 +1,4 @@
-# Motor-Cooling-System-Design 🚗
+# Motor-Cooling-System-Design 
 **Gold Medal Winner – Kriti 2025 (Automobile Club, IIT Guwahati)**  
 
 This repository contains our complete MATLAB/Simulink implementation of a **liquid cooling system** for the EMRAX 208 motor used in Formula Student–style EV applications.  
