@@ -1,8 +1,8 @@
-# Motor-Cooling-System-Design 🚗❄️  
+# Motor-Cooling-System-Design 🚗
 **Gold Medal Winner – Kriti 2025 (Automobile Club, IIT Guwahati)**  
 
 This repository contains our complete MATLAB/Simulink implementation of a **liquid cooling system** for the EMRAX 208 motor used in Formula Student–style EV applications.  
-We developed and simulated **two independent design approaches**, both of which maintain the motor temperature **well below 45°C** over the given drive cycle.
+We developed and simulated **two design approaches**, both maintaining the motor temperature **well below 45°C** over the given drive cycle.
 
 ---
 
@@ -15,33 +15,48 @@ Our solution models the full thermal management loop including:
 - Pump and fan actuation  
 - Closed-loop thermal response  
 
-Both approaches were validated through simulations, and the project received the **Gold Medal at Kriti 2025**.
+Both approaches were validated via simulation, and the project received the **Gold Medal at Kriti 2025**.
 
 ---
 
 ## 📂 Repository Contents  
 
-Each approach includes the full set of files needed to reproduce the simulations:
-
 ### **Approach 1 & Approach 2**
 - **Simulink Model (`.slx`)**  
-  Core liquid cooling circuit model.
 - **Parameter File (`.m`)**  
-  Run this first to load variables into the workspace.
 - **Video Demonstration (`.zip`)**  
-  Shows temperature profile saturating below 45°C.
-- **Simulink Cache File**  
-  Auto-generated support file.
+- **Simulink Cache File**
 
 ### **Shared Files**
-- `drive_cycle_final2.xlsx` – Drive cycle data used for simulation  
-- `12_motor_cooling_system_design_report.pdf` – Full design report  
+- `drive_cycle_final2.xlsx` – Drive cycle data  
+- `12_motor_cooling_system_design_report.pdf` – Full report  
 - `motor_cooling_system_design.pdf` – Additional documentation  
 
 ---
 
 ## ▶️ How to Run  
+
 1. Open MATLAB (R2023a or newer).  
+
 2. Run the parameter file:  
    ```matlab
    run('MotorCoolingSystem_Parameter_Approach1.m')
+   ```
+   *(or use the Approach 2 file)*
+
+3. Open the corresponding Simulink model:  
+   ```matlab
+   open('12_motor_cooling_system_design_Approach1_simulink.slx')
+   ```
+
+4. Click **Run** in Simulink.
+
+You can view the temperature response in the video demo or directly through Simulink scopes.
+
+---
+
+## 📝 Notes
+- Both approaches maintain motor temperature safely **below 45°C**  
+- **Approach 1** → simpler single-pipe design  
+- **Approach 2** → multiple pipe structure to improve efficiency in cooling
+ 
