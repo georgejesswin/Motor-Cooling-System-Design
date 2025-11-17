@@ -30,7 +30,7 @@ Both approaches were validated via simulation, and the project received the **Go
 ### **Shared Files**
 - `drive_cycle_final2.xlsx` – Drive cycle data  
 - `12_motor_cooling_system_design_report.pdf` – Full report  
-- `motor_cooling_system_design.pdf` – Additional documentation  
+- `motor_cooling_system_design.pdf` – Problem Statement
 
 ---
 
