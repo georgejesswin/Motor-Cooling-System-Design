@@ -25,7 +25,6 @@ Both approaches were validated via simulation, and the project received the **Go
 - **Simulink Model (`.slx`)**  
 - **Parameter File (`.m`)**  
 - **Video Demonstration (`.zip`)**  
-- **Simulink Cache File**
 
 ### **Shared Files**
 - `drive_cycle_final2.xlsx` – Drive cycle data  
