@@ -51,7 +51,7 @@ Both approaches were validated via simulation, and the project received the **Go
 
 4. Click **Run** in Simulink.
 
-You can view the temperature response in the video demo or directly through Simulink scopes.
+You can view the temperature response through Simulink scope.
 
 ---
 
